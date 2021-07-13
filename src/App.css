@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+.gradient{
+    background: linear-gradient(94deg, #06B6D4 0%, #0E7490 0.01%, #0284C7 100%);
+}
+
+.gradient-rot{
+    background: linear-gradient(274deg, #06B6D4 0%, #0E7490 0.01%, #0284C7 100%);
+}
+
+.gradient-rot2{
+    background: linear-gradient(184deg, #06B6D4 0%, #0E7490 0.01%, #0284C7 100%);
+}
+
+.bg-gradient{
+    background: linear-gradient(180deg, rgba(165, 243, 252, 0.1) 23.31%, rgba(165, 243, 252, 0.05) 109.14%);
+}
+
+/* Colors */
+
+.light-blue{
+    background: #CFFAFE;
+    color: #0E7490;
+}
+.sea-green{
+    background: #0891B2;
+}
+
+.blue-text{
+    color: #0E7490;
+}
+
+.pri-gray{
+    color: #1F2937;
+}
+
+.sec-gray{
+    color: #27272A;
+}
+
+.gray-text{
+    color: #52525B;
+}
+
+
+.stretch{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brand-shadow{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table-margin{
+    margin-top: 32px !important;
+}
+.table-padding{
+    padding-top:8px;
+}
+
+.table-card{
+    box-shadow: 20px 22px 24px rgba(23, 18, 63, 0.120028);
+}
+
+.active{
+    border-bottom: 1px solid #18181B;
+}
