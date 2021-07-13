@@ -56,7 +56,7 @@ function Pricing(){
                     </div>
                     {/* Column 2 */}
                     <div className="bg-white rounded-sm mt-8 table-card py-12 relative -top-12">
-                        <p className="text-3xl font-extrabold text-center">Pro</p>
+                        <p className="text-3xl font-extrabold text-center text-blue-500">Pro</p>
                         <p className="font-medium text-center table-margin"><span className="text-4xl font-bold sec-gray">$20</span>/month</p>
                         <p className="table-margin text-center flex justify-center table-padding"><img src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/></p>
                         <p className="table-margin text-center flex justify-center table-padding"><img src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/></p>
