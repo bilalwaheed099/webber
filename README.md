@@ -6,6 +6,16 @@
 3. Execute command 'npm run start' to start the development server
 4. Execute command 'npm run build' to build the app for production.
 
+The links of the pages are as follows:
+1. homepage - http://localhost:3000/
+2. pricing - http://localhost:3000/pricing
+3. case-studies - http://localhost:3000/case-studies
+4. case-studies-inner - http://localhost:3000/case-studies-inner
+
+However, the navigation links within the website work fine and can be used. 
+To go to the "case studies inner" page, click on any "Read more ->" button 
+in the case studies page.
+
 ### `npm start`
 
 Runs the app in the development mode.\
