@@ -9,7 +9,7 @@ function Feature(props){
             {/* Heading */}
             <h3 className="font-semibold text-xl md:text-2xl mt-4 sec-gray">{props.heading}</h3>
             {/* Text */}
-            <p className="mt-4 text-lg md:text-xl gray-text">Lorem ipsum dolor sit amet, consectetur<br/>
+            <p className="mt-4 text-lg md:text-xl md:gray-text text-center">Lorem ipsum dolor sit amet, consectetur<br/>
                             adipiscing elit. Sed erat nibh tristique.</p>
         </div>
     )

@@ -68,8 +68,8 @@ function CaseStudiesInner(){
                     <section className="w-5/6 lg:w-4/12 flex flex-col items-center justify-center lg:inline">
                         <img className="mt-8" src="https://user-images.githubusercontent.com/57569861/125405659-62c9e280-e3d1-11eb-8a01-e2325ef04725.png" />
                         <div className="gradient w-full h-80 mt-20 flex flex-col justify-evenly p-8">
-                            <h1 className="text-white text-2xl font-bold">Get Webber for your organization</h1>
-                            <p className="text-white leading-6 mt-8">There are many variations of passages of Lorem Ipsum available, 
+                            <h1 className="text-white lg:text-2xl text-xl font-bold">Get Webber for your organization</h1>
+                            <p className="text-white text-sm lg:text-base leading-6 mt-8">There are many variations of passages of Lorem Ipsum available, 
                                 but the majority have suffered alteration in some form, by injected 
                                 humour, or randomised words which don't look.</p>
                             <div className="mt-4">

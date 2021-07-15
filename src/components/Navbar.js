@@ -16,7 +16,7 @@ function Navbar(props){
 
             {/* Middle Part - Links */}
             <div className="md:w-1/2 xl:w-5/12 flex md:flex-row md:justify-between gray-text sm:p-0 md:static md:bg-transparent md:h-8 hidden md:flex md:justify-evenly
-                            flex-col justify-between w-3/12 h-28 items-end absolute top-16 right-16 pr-2 pt-2 nav-small">
+                            flex-col justify-between w-5/12 h-28 items-end absolute top-16 right-16 pr-2 pt-2 nav-small">
                 <Link className={props.link=='home'?'active':null} to='/'>Overview</Link>
                 <Link className={props.link=='pricing'?'active':null} to='/pricing'>Pricing</Link>
                 <Link className={props.link=='case-studies'||props.link=='case-studies-inner'?'active':null} to='/case-studies'>Case Studies</Link>

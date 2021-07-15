@@ -52,8 +52,8 @@ function Home(){
                 <section className="flex md:flex-row md:items-center md:justify-evenly mt-12 flex-col items-center ">
                     {/* Left */}
                     <div className="flex flex-col justify-center ">
-                        <h1 className="font-extrabold text-3xl md:text-5xl pri-gray">Sign Up</h1>
-                        <p className="mt-8 md:text-xl gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat <br/>
+                        <h1 className="font-extrabold text-3xl md:text-5xl pri-gray md:text-left text-center">Sign Up</h1>
+                        <p className="mt-8 md:text-xl gray-text md:text-left text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat <br/>
                         vitae a consectetur dolor. Elementum habitant urna, ac quis <br/>
                         laoreet urna purus. Aliquam at est vel auctor rhoncus et. Sit <br/>
                         ac enim, malesuada mattis. Dignissim nibh augue posuer</p>
@@ -95,8 +95,8 @@ function Home(){
                     <path d="M12.264 10.6001V22.1921H0.528V14.7041C0.528 11.9201 1.032 9.40012 2.04 7.14412C3.048 4.88812 4.728 2.56012 7.08 0.16012L11.328 3.54412C8.928 5.99212 7.464 8.34412 6.936 10.6001H12.264ZM27.312 10.6001V22.1921H15.576V14.7041C15.576 11.9201 16.08 9.40012 17.088 7.14412C18.096 4.88812 19.776 2.56012 22.128 0.16012L26.376 3.54412C23.976 5.99212 22.512 8.34412 21.984 10.6001H27.312Z" fill="white"/>
                     </svg>
                     <p className="text-white font-medium text-center text-sm md:text-lg ml-4 leading-8">Eos enim quo est necessitatibus nobis consectetur rerum qui dolores. Quia commodi similique <br/> 
-                        est sed aut. Aspernatur voluptas nisi tenetur voluptates iusto debitis ex voluptatem odit.<br/>
-                        Repudiandae et et quod et. Enim sit delectus numquam. Molestiae aut voluptatem. Quia<br/>
+                        est sed aut. Aspernatur voluptas nisi tenetur voluptates iusto debitis ex voluptatem odit.
+                        Repudiandae et et quod et. Enim sit delectus numquam. Molestiae aut voluptatem. Quia
                         commodi similique est sed aut. Aspernatur voluptas nisi tenetur voluptates iusto debitis.</p>
                 </div>
             </section>
