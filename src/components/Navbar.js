@@ -16,17 +16,28 @@ function Navbar(props){
 
             {/* Middle Part - Links */}
             <div className="md:w-1/2 xl:w-5/12 flex md:flex-row md:justify-between gray-text sm:p-0 md:static md:bg-transparent md:h-8 hidden md:flex md:justify-evenly
-                            flex-col justify-between w-5/12 h-28 items-end absolute top-16 right-16 pr-2 pt-2 nav-small">
+                            flex-col justify-between w-5/12 h-28 items-end absolute top-16 right-16 pr-2 pt-2 nav">
                 <Link className={props.link=='home'?'active':null} to='/'>Overview</Link>
                 <Link className={props.link=='pricing'?'active':null} to='/pricing'>Pricing</Link>
                 <Link className={props.link=='case-studies'||props.link=='case-studies-inner'?'active':null} to='/case-studies'>Case Studies</Link>
                 <Link className={props.link=='faq'?'active':null} to='/pricing'>FAQ</Link>
             </div>
 
+            {/* Links - Narrow */}
+            <div className="bg-white w-screen nav-small hidden">
+                <Link className={props.link=='home'?'active':null} to='/'>Overview</Link>
+                <Link className={props.link=='pricing'?'active':null} to='/pricing'>Pricing</Link>
+                <Link className={props.link=='case-studies'||props.link=='case-studies-inner'?'active':null} to='/case-studies'>Case Studies</Link>
+                <Link className={props.link=='faq'?'active':null} to='/pricing'>FAQ</Link>
+            </div>
             {/* Right Part -Sign in button */}
             <button className="light-blue h-9 w-24 rounded-sm hidden md:inline">Sign In</button>
             {/* <BurgerIcon />  */}
-            <MenuAlt2Icon className="h-8 w-8 sec-gray md:hidden cursor-pointer" onClick={e => document.querySelector('.nav-small').classList.toggle('hidden')}/>
+            <MenuAlt2Icon className="h-8 w-8 sec-gray md:hidden cursor-pointer" onClick={e => {
+                document.querySelector('.nav-small').classList.toggle('hidden')
+                document.querySelector('.nav').classList.toggle('hidden')
+            }
+            }/>
         </div>
     )
 }

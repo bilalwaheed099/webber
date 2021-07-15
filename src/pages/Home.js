@@ -49,15 +49,15 @@ function Home(){
             {/* How it works */}
             <div className="md:mt-8 mt-16">
                 <SecHeading text="How it works"/>
-                <section className="flex md:flex-row md:items-center md:justify-evenly mt-12 flex-col items-center ">
+                <section className="flex md:flex-row md:items-center md:justify-evenly mt-12 flex-col-reverse items-center ">
                     {/* Left */}
                     <div className="flex flex-col justify-center ">
-                        <h1 className="font-extrabold text-3xl md:text-5xl pri-gray md:text-left text-center">Sign Up</h1>
+                        <h1 className="font-extrabold text-3xl md:text-5xl pri-gray text-left">Sign Up</h1>
                         <p className="mt-8 md:text-xl gray-text md:text-left text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat <br/>
                         vitae a consectetur dolor. Elementum habitant urna, ac quis <br/>
                         laoreet urna purus. Aliquam at est vel auctor rhoncus et. Sit <br/>
                         ac enim, malesuada mattis. Dignissim nibh augue posuer</p>
-                        <div className="flex justify-between items-center mt-8">
+                        <div className="flex justify-evenly sm:justify-between items-center mt-8">
                         <button className="w-36 h-12 gradient-rot text-white">Learn more</button>
 
                             <div className="flex w-32 justify-evenly items-center">
@@ -74,13 +74,13 @@ function Home(){
                     </div>
                     {/* Right */}
                     <div>
-                    <img className="object-contain w-2/3 mt-12 md:mt-0 relative left-8" src="https://user-images.githubusercontent.com/57569861/125330992-dc75b800-e360-11eb-9f1e-fa3c6ed2631b.png"></img>
+                    <img className="object-contain w-2/3 mt-12 md:mt-0 relative left-8 sm:mb-0 mb-8" src="https://user-images.githubusercontent.com/57569861/125330992-dc75b800-e360-11eb-9f1e-fa3c6ed2631b.png"></img>
                     </div>
                 </section>
             </div>
 
             {/* Blue Banner */}
-            <section className="gradient w-full h-96 md:h-64 mt-28 flex flex-col-reverse md:flex md:flex-row md:justify-evenly md:items-end py-8 md:py-16">
+            <section className="gradient w-full h-96 md:h-64 mt-28 flex flex-col-reverse md:flex-row md:justify-evenly md:items-end p-8 md:py-16 md:px-24">
                 {/* left */}
                 <div className="text-white flex items-center justify-center md:justify-evenly mt-4 md:mt-0">
                     <img className="object-contain" src="https://user-images.githubusercontent.com/57569861/125337092-02528b00-e368-11eb-9ef6-5b735f0b6ad2.png"/>
@@ -90,11 +90,12 @@ function Home(){
                     </div>
                 </div>
                 {/* right */}
-                <div className="flex w-5/6 md:w-full mx-auto">
+                <div className="flex md:w-4/6 w-full md:w-5/6 mx-auto">
                     <svg width="28" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.264 10.6001V22.1921H0.528V14.7041C0.528 11.9201 1.032 9.40012 2.04 7.14412C3.048 4.88812 4.728 2.56012 7.08 0.16012L11.328 3.54412C8.928 5.99212 7.464 8.34412 6.936 10.6001H12.264ZM27.312 10.6001V22.1921H15.576V14.7041C15.576 11.9201 16.08 9.40012 17.088 7.14412C18.096 4.88812 19.776 2.56012 22.128 0.16012L26.376 3.54412C23.976 5.99212 22.512 8.34412 21.984 10.6001H27.312Z" fill="white"/>
                     </svg>
-                    <p className="text-white font-medium text-center text-sm md:text-lg ml-4 leading-8">Eos enim quo est necessitatibus nobis consectetur rerum qui dolores. Quia commodi similique <br/> 
+                    <p className="text-white w-full font-medium text-center md:text-left text-sm md:text-lg ml-4 leading-8">
+                        Eos enim quo est necessitatibus nobis consectetur rerum qui dolores. Quia commodi similique
                         est sed aut. Aspernatur voluptas nisi tenetur voluptates iusto debitis ex voluptatem odit.
                         Repudiandae et et quod et. Enim sit delectus numquam. Molestiae aut voluptatem. Quia
                         commodi similique est sed aut. Aspernatur voluptas nisi tenetur voluptates iusto debitis.</p>
@@ -104,7 +105,7 @@ function Home(){
             {/* Brands */}
             <div className="mt-48 sm:h-screen">
                 <SecHeading text="Brands using our services"/>
-                <section className="grid grid-cols-1 2xl:grid-cols-4 2xl:grid-rows-2 mt-20 gap-6 w-1/2 mx-auto lg:grid-cols-3 lg:grid-rows-3 md:grid-rows-4 md:grid-cols-2">
+                <section className="sm:grid flex flex-col items-center mt-20 2xl:grid-cols-4 2xl:grid-rows-2 gap-6 lg:w-1/2 sm:w-2/3 mx-auto lg:grid-cols-3 lg:grid-rows-3 sm:grid-rows-4 sm:grid-cols-2">
                     <BrandLogo image='https://user-images.githubusercontent.com/57569861/125329648-32496080-e35f-11eb-9017-eaa3389e5c6a.png' />
                     <BrandLogo image='https://user-images.githubusercontent.com/57569861/125329661-35445100-e35f-11eb-981c-4c099e419a55.png' />
                     <BrandLogo image='https://user-images.githubusercontent.com/57569861/125329678-37a6ab00-e35f-11eb-8920-2e059fefc230.png' />
@@ -117,7 +118,7 @@ function Home(){
             </div>
 
             {/* By the numbers */}
-            <section className="gradient w-full h-screen sm:h-84 flex flex-col justify-evenly items-center">
+            <section className="gradient w-full h-screen sm:h-84 flex flex-col justify-evenly items-center mt-40 sm:mt-20">
             <h1 className="text-white mx-auto w-100 text-center font-black text-4xl sm:text-6xl relative sm:top-14">By the numbers</h1>
                 <p className="text-white w-2/3 sm:w-full text-center sm:mt-4 relative sm:top-20">5 years, consistent quality and you get results. No matter what</p>
                 <div className="grid sm:grid-cols-4 sm:grid-rows-1 grid-cols-2 grid-rows-2 gap-6 mt-8 relative sm:top-28">
@@ -130,7 +131,7 @@ function Home(){
 
             {/* Download */}
             <section className="flex flex-col justify-evenly items-center mb-32">
-                <h1 className="text-5xl font-black w-1/2 mt-24 sm:mt-60 text-center pri-gray">Build the next big thing and ship to market faster </h1>
+                <h1 className="text-3xl md:text-5xl font-black w-2/3 md:w-1/2 mt-24 sm:mt-60 text-center pri-gray">Build the next big thing and ship to market faster </h1>
                 <button className="w-36 h-12 mt-20 gradient-rot text-white">Download now</button>
 
             </section>

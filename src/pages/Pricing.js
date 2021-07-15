@@ -15,7 +15,7 @@ function Pricing(){
 
                 {/* Priamary Heading */}
                 <PriHeading text="SIMPLE PRICING" />
-                <p className="text-center mt-8 gray-text">No contracts. No surprise fees. Register now or try out the Webbber free trial so you’re <br/>
+                <p className="text-center mt-8 gray-text w-5/6 md:w-7/12">No contracts. No surprise fees. Register now or try out the Webbber free trial so you’re
                  absolutely sure that it’s the right fit for your frontend team</p>
 
                 {/* Buttons */}
@@ -24,8 +24,8 @@ function Pricing(){
                         <button className="w-28 sm:w-36 h-12 light-blue text-blue-500 rounded-sm sm:-text-md text-sm">YEARLY</button>
                 </div>
 
-                {/* Table */}
-                <section className="mt-20 w-5/6 grid grid-cols-4 gray-text">
+                {/* Table - wide */}
+                <section className="mt-20 w-5/6 grid grid-cols-4 gray-text hidden md:grid">
                     {/* Column 1 */}
                     <div className="mt-8">
                         <p className="table-margin">&nbsp;</p>
@@ -84,6 +84,125 @@ function Pricing(){
                     </div>
                 </section>
 
+                            
+                {/* Table - NARROW */}
+                <section className="mt-20 flex flex-col items-center gray-text md:hidden">
+                {/* Section 1 */}
+                <div className="mt-8 w-full">
+                    <div className="flex justify-between border-b border-gray-200">
+                        <p className="text-3xl font-extrabold text-center">Starter</p>
+                        <p className="ml-8 font-medium text-center"><span className="text-2xl sm:text-4xl font-bold sec-gray">$20</span>/month</p>  
+                    </div>
+                    {/* table */}
+                    <div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">All available links</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Own analytics platform</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Number of users</p>
+                            <p className="text-sm text-base text-center">1</p>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Optimise hashtags</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Account manager</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Number of articles</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Satisfaction guaranteed</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <button className="mt-8 w-24 h-8 md:w-36 md:h-12 text-sm lg:text-md light-blue text-blue-500">Learn More</button>
+                    </div>
+                </div>    
+                <div className="mt-16 w-full">
+                    <div className="flex justify-between border-b border-gray-200">
+                        <p className="text-3xl font-extrabold text-center">Pro</p>
+                        <p className="ml-8 font-medium text-center"><span className="text-2xl sm:text-4xl font-bold sec-gray">$100</span>/month</p>  
+                    </div>
+                    {/* table */}
+                    <div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">All available links</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Own analytics platform</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Number of users</p>
+                            <p className="text-sm text-base text-center">3</p>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Optimise hashtags</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Account manager</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Number of articles</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Satisfaction guaranteed</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <button className="mt-8 w-24 h-8 md:w-36 md:h-12 text-sm lg:text-md light-blue text-blue-500">Learn More</button>
+                    </div>
+                </div>    
+                <div className="mt-16 w-full">
+                    <div className="flex justify-between border-b border-gray-200">
+                        <p className="text-3xl font-extrabold text-center">Enterprise</p>
+                        <p className="ml-8 font-medium text-center"><span className="text-2xl sm:text-4xl font-bold sec-gray">$200</span>/month</p>  
+                    </div>
+                    {/* table */}
+                    <div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">All available links</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Own analytics platform</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Number of users</p>
+                            <p className="text-sm text-base text-center">Unlimited</p>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Optimise hashtags</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Account manager</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Number of articles</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <div className="w-full flex justify-between mt-8">
+                            <p className="text-sm text-base">Satisfaction guaranteed</p>
+                            <img className="ml-8 h-4 w-4 objct-contain relative top-1" src="https://user-images.githubusercontent.com/57569861/125405622-5a71a780-e3d1-11eb-9517-d91c87c4ca70.png"/>
+                        </div>
+                        <button className="mt-8 w-24 h-8 md:w-36 md:h-12 text-sm lg:text-md light-blue text-blue-500">Learn More</button>
+                    </div>
+                </div>                 
+                </section>
                 {/* FAQs */}
                <section className="bg-gray-100 py-28">
                    <div className="mt-4"></div>
@@ -114,4 +233,6 @@ function Pricing(){
 }
 
 export default Pricing;
+
+
 

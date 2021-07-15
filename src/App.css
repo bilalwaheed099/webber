@@ -86,11 +86,21 @@
 
 @media only screen and (max-width:768px){
     .nav-small{
-        background: linear-gradient(184deg, #06B6D4 0%, #0E7490 0.01%, #0284C7 100%);
-        color: white;
+        /* background: transparent;
+        color: #27272A;
+        font-weight: bolder;
         border-color: white;
+        box-shadow: 12px 12px 24px rgba(23, 18, 63, 0.120028); */
+        height: 100vh;
+        width: 100vw;
+
     }
     .active{
-        border-bottom: 1px solid white;
+        border-bottom: 2px solid #5a5a5f;
+    }
+    .nav-stretch{
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
