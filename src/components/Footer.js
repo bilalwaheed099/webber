@@ -3,7 +3,7 @@ import '../App.css';
 
 function Footer(){
     return(
-        <div className="bg-gray-100 lg:h-96 w-full p-16 pb-0 lg:pl-28">
+        <div className="bg-gray-100 lg:h-96 w-full p-4 sm:p-16 pb-0 lg:pl-28">
             <footer className="h-5/6 grid mx-auto lg:grid-cols-6 lg:grid-rows-1 sec-gray sm:grid-cols-1 sm:grid-rows-3">
                 {/* left part - logo */}
                 <div className="lg:col-span-2 sm:col-span-1 flex flex-col lg:items-start sm:text-left text-center items-center justify-between h-5/6" >
